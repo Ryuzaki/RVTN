@@ -1,0 +1,2 @@
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngineContent\obj\x86\Debug\PanoEngineContent.contentprojResolveAssemblyReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngineContent\obj\x86\Debug\PanoEngineContent.contentprojResolveAssemblyReference.cache

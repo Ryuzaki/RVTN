@@ -1,0 +1,148 @@
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PanoEngine.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Assets\GoTo.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Assets\HotSpot.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PanoEngine.pdb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PaseoVirtual1.xml
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Assets\GoTo.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Assets\HotSpot.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PanoEngine.exe
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PanoEngine.pdb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.csprojResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.exe
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.pdb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\AssetsTest\paseoVirtual01\atras01.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\AssetsTest\paseoVirtual01\drch01.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\AssetsTest\paseoVirtual01\frente01.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\AssetsTest\paseoVirtual01\izq01.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\AssetsTest\paseoVirtual01\atras02.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\AssetsTest\paseoVirtual01\drch02.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\AssetsTest\paseoVirtual01\frente02.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\AssetsTest\paseoVirtual01\izq02.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 01-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 01-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 01-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 01-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 02-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 02-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 02-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 02-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 03-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 03-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 03-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 03-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 04-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 04-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 04-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 04-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 05-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 05-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 05-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 05-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 06-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 06-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 06-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 06-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 07-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 07-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 07-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 07-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 08-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 08-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 08-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 08-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 09-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 09-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 09-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 09-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 10-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 10-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 10-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 10-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 11-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 11-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 11-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 11-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 12-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 12-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 12-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 12-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 13-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 13-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 13-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 13-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 14-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 14-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 14-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 14-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 15-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 15-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 15-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 15-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 16-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 16-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 16-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 16-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 17-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 17-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 17-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 17-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 18-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 18-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 18-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 18-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 19-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 19-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 19-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 19-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 20-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 20-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 20-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 20-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 21-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 21-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 21-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 21-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 22-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 22-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 22-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 22-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 23-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 23-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 23-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 23-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 24-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 24-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 24-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 24-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 25-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 25-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 25-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 25-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 26-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 26-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 26-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 26-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 27-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 27-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 27-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 27-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 28-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 28-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 28-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 28-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 29-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 29-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 29-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 29-3.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 30-0.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 30-1.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 30-2.xnb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\PaseoVirtual00\Spot 30-3.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PaseoVirtual Test.xml
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PaseoVirtual00.xml
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Effects\TransEffect.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.csprojResolveAssemblyReference.cache

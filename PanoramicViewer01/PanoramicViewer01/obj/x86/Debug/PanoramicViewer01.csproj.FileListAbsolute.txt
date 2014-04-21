@@ -1,0 +1,7 @@
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoramicViewer01\PanoramicViewer01\bin\x86\Debug\Content\Panorama01-01.xnb
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoramicViewer01\PanoramicViewer01\bin\x86\Debug\PanoramicViewer01.exe
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoramicViewer01\PanoramicViewer01\bin\x86\Debug\PanoramicViewer01.pdb
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoramicViewer01\PanoramicViewer01\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoramicViewer01\PanoramicViewer01\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoramicViewer01\PanoramicViewer01\obj\x86\Debug\PanoramicViewer01.exe
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoramicViewer01\PanoramicViewer01\obj\x86\Debug\PanoramicViewer01.pdb

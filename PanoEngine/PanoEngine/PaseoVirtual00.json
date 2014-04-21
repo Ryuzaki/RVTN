@@ -1,0 +1,70 @@
+﻿{
+	name : "Paseo Virtual Numero 01",
+	hotspaces : 
+	[
+		{
+			name : "Zona Numero 01",
+			east : 
+			[
+				img : "PaseoVirtual00/Spot 01-3.jpg",
+			]
+			north : 
+			[
+				img : "PaseoVirtual00/Spot 01-2.jpg",
+				goto : 
+				[
+					coordX : 1124,
+					coordY : 520,
+					where : "Zona Numero 02"
+				]
+			]
+			west : 
+			[
+				img : "PaseoVirtual00/Spot 01-1.jpg",
+			]
+			south : 
+			[
+				img : "PaseoVirtual00/Spot 01-0.jpg",
+			]
+		},
+
+		{
+			name : "Zona Numero 02",
+			east : 
+			[
+				img : "PaseoVirtual00/Spot 02-3.jpg",
+				goto : 
+				[
+					coordX : 2100,
+					coordY : 600,
+					where : "Zona Numero 02"
+				]
+			]
+			north : 
+			[
+				img : "PaseoVirtual00/Spot 02-2.jpg",
+				goto : 
+				[
+					coordX : 1600,
+					coordY : 600,
+					where : "Zona Numero 02"
+				]
+			]
+			west : 
+			[
+				img : "PaseoVirtual00/Spot 02-1.jpg",
+				goto : 
+				[
+					coordX : 440,
+					coordY : 580,
+					where : "Zona Numero 02"
+				]
+			]
+			south : 
+			[
+				img : "PaseoVirtual00/Spot 02-0.jpg",
+			]
+		}
+
+	]
+}

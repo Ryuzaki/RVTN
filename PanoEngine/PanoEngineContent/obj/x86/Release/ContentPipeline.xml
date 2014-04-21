@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>AssetsTest\paseoVirtual01\east01.png</Source>
+      <Name>AssetsTest\paseoVirtual01\east01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\AssetsTest\paseoVirtual01\east01.xnb</Output>
+      <Time>2014-01-13T10:29:27.2535751+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AssetsTest\paseoVirtual01\east02.png</Source>
+      <Name>AssetsTest\paseoVirtual01\east02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\AssetsTest\paseoVirtual01\east02.xnb</Output>
+      <Time>2014-01-13T10:29:27.264574+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AssetsTest\paseoVirtual01\north01.png</Source>
+      <Name>AssetsTest\paseoVirtual01\north01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\AssetsTest\paseoVirtual01\north01.xnb</Output>
+      <Time>2014-01-13T10:29:27.2735731+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AssetsTest\paseoVirtual01\north02.png</Source>
+      <Name>AssetsTest\paseoVirtual01\north02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\AssetsTest\paseoVirtual01\north02.xnb</Output>
+      <Time>2014-01-13T10:29:27.2805724+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AssetsTest\paseoVirtual01\south01.png</Source>
+      <Name>AssetsTest\paseoVirtual01\south01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\AssetsTest\paseoVirtual01\south01.xnb</Output>
+      <Time>2014-01-13T10:29:27.2895715+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AssetsTest\paseoVirtual01\south02.png</Source>
+      <Name>AssetsTest\paseoVirtual01\south02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\AssetsTest\paseoVirtual01\south02.xnb</Output>
+      <Time>2014-01-13T10:29:27.2955709+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AssetsTest\paseoVirtual01\west01.png</Source>
+      <Name>AssetsTest\paseoVirtual01\west01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\AssetsTest\paseoVirtual01\west01.xnb</Output>
+      <Time>2014-01-13T10:29:27.3105694+01:00</Time>
+    </Item>
+    <Item>
+      <Source>AssetsTest\paseoVirtual01\west02.png</Source>
+      <Name>AssetsTest\paseoVirtual01\west02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\AssetsTest\paseoVirtual01\west02.xnb</Output>
+      <Time>2014-01-13T10:29:27.3225682+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\GoTo.png</Source>
+      <Name>Assets\GoTo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\Assets\GoTo.xnb</Output>
+      <Time>2014-01-08T09:54:04.0222167+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\HotSpot.png</Source>
+      <Name>Assets\HotSpot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\Assets\HotSpot.xnb</Output>
+      <Time>2014-01-08T09:54:04.0262171+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngineContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngineContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-01-07T10:05:25.0793945+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

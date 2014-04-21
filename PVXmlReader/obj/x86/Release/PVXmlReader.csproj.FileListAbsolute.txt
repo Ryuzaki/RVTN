@@ -1,0 +1,6 @@
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\bin\Release\PaseoVirtual1.xml
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\bin\Release\PVXmlReader.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\bin\Release\PVXmlReader.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\obj\x86\Release\PVXmlReader.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\obj\x86\Release\PVXmlReader.pdb

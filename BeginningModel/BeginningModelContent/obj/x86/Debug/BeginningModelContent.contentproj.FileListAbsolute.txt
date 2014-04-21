@@ -1,0 +1,2 @@
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModelContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModelContent\obj\x86\Debug\BeginningModelContent.contentprojResolveAssemblyReference.cache

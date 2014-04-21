@@ -1,0 +1,29 @@
+<PaseoVirtual name="Paseo Virtual Numero 01">
+	
+	<HotSpace name="Zona Numero 01">
+		<East img="/paseoVirtual01/east01.png">
+			<GoTo coordX="150" coordY="300" where="Zona Numero 02"/>
+			<HotSpot coordX="300" coordY="300"/>
+		</East>
+		<North img="/paseoVirtual01/north01.png">
+		</North>
+		<West img="/paseoVirtual01/west01.png">
+			<GoTo coordX="150" coordY="300" where="Zona Numero 02"/>
+		</West>
+		<South img="/paseoVirtual01/south01.png">
+			<GoTo coordX="150" coordY="300" where="Zona Numero 02"/>
+		</South>
+	</HotSpace>
+
+	<HotSpace name="Zona Numero 02">
+		<East img="/paseoVirtual01/east02.png">
+		</East>
+		<North img="/paseoVirtual01/north02.png">
+		</North>
+		<West img="/paseoVirtual01/west02.png">
+		</West>
+		<South img="/paseoVirtual01/south02.png">
+		</South>
+	</HotSpace>
+	
+</PaseoVirtual>

@@ -1,0 +1,18 @@
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\bin\x86\Debug\Beginning3D.exe
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\bin\x86\Debug\Beginning3D.pdb
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Beginning3D.exe
+C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Beginning3D.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\bin\x86\Debug\Beginning3D.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\bin\x86\Debug\Beginning3D.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Beginning3D.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Beginning3D.pdb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\bin\x86\Debug\Beginning3D.exe
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\bin\x86\Debug\Beginning3D.pdb
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Beginning3D.csprojResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Beginning3D.exe
+C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Beginning3D.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3D\obj\x86\Debug\Beginning3D.csprojResolveAssemblyReference.cache
