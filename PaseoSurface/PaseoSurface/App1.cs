@@ -44,6 +44,10 @@ namespace PaseoSurface
         private float rotationArrow = 0.0f;
         private Timer loadingTimerAnimation;
         /** PANO STATE **/
+        private Texture2D verticalSlideTexture;
+        private int verticalSlideWidthPixel = 100;
+        private Texture2D rightArrowTexture;
+        private float slidesTextureAlphaNormal = 0.4f, slidesTextureAlphaPressed = 0.6f, slidesTextureAlphaLeft, slidesTextureAlphaRight;
 
         /// <summary>
         /// The target receiving all surface input for the application.
@@ -156,7 +160,7 @@ namespace PaseoSurface
 
             //Custom Initialize
             PanoEngine.PanoEngine.PEInitialize(this);
-            PanoEngine.PanoEngine.PECreatePaseoVirtual("PaseoVirtual00.xml");
+            PanoEngine.PanoEngine.PECreatePaseoVirtual("PaseoVirtualFast.xml");
 
             loadingTimerAnimation = new Timer(40); //25 fps
             loadingTimerAnimation.Elapsed += new ElapsedEventHandler(loadingTimerAnimation_Elapsed);
@@ -179,8 +183,13 @@ namespace PaseoSurface
             spriteBatch = new SpriteBatch(GraphicsDevice);
             BoundingSphereRenderer.InitializeGraphics(GraphicsDevice, 45);
             // TODO: use this.Content to load your application content here
-            loadingScreen = Content.Load<Texture2D>(@"loadingScreen");
-            loadingArrow = Content.Load<Texture2D>(@"loadingArrow");
+            loadingScreen = Content.Load<Texture2D>(@"Interface/loadingScreen");
+            loadingArrow = Content.Load<Texture2D>(@"Interface/loadingArrow");
+            rightArrowTexture = Content.Load<Texture2D>(@"Interface/RightArrow");
+            verticalSlideTexture = Content.Load<Texture2D>(@"Interface/VerticalSlide");
+
+            slidesTextureAlphaLeft = slidesTextureAlphaNormal;
+            slidesTextureAlphaRight = slidesTextureAlphaNormal;
         }
 
         /// <summary>
@@ -237,11 +246,23 @@ namespace PaseoSurface
 
                     foreach (TouchPoint tp in touches)
                     {
-                        if (tp.X > 0 && tp.X <= 100)
+                        if (tp.X > 0 && tp.X <= verticalSlideWidthPixel)
+                        {
                             goLeft = true;
+                            slidesTextureAlphaLeft = slidesTextureAlphaPressed;
+                        }
+                        else {
+                            slidesTextureAlphaLeft = slidesTextureAlphaNormal;
+                        }
 
-                        if (tp.X < graphics.PreferredBackBufferWidth && tp.X > graphics.PreferredBackBufferWidth - 100)
+                        if (tp.X < graphics.PreferredBackBufferWidth && tp.X > graphics.PreferredBackBufferWidth - verticalSlideWidthPixel)
+                        {
                             goRight = true;
+                            slidesTextureAlphaRight = slidesTextureAlphaPressed;
+                        }
+                        else {
+                            slidesTextureAlphaRight = slidesTextureAlphaNormal;
+                        }
                     }
 
                     float movRad = 0.01f;
@@ -302,6 +323,68 @@ namespace PaseoSurface
         }
 
         protected void PanoDraw(GameTime gameTime)
+        {
+            switch (currentInputMode) 
+            {
+                case INPUT_MODE.PRESS:
+                    PanoPressDraw(gameTime);
+                    break;
+                case INPUT_MODE.SLIDE:
+                    PanoSlideDraw(gameTime);
+                    break;
+            }
+
+            
+        }
+
+        protected void PanoPressDraw(GameTime gameTime) 
+        {
+            if (!applicationLoadCompleteSignalled)
+            {
+                // Dismiss the loading screen now that we are starting to draw
+                ApplicationServices.SignalApplicationLoadComplete();
+                applicationLoadCompleteSignalled = true;
+            }
+
+            //TODO: Rotate the UI based on the value of screenTransform here if desired
+
+            GraphicsDevice.Clear(backgroundColor);
+
+            //TODO: Add your drawing code here
+            //TODO: Avoid any expensive logic if application is neither active nor previewed
+            if (PanoEngine.PanoEngine.PEPaseoCreated) PanoEngine.PanoEngine.PEPaseo.Draw();
+
+            spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
+            //left vertical slide
+            spriteBatch.Draw(verticalSlideTexture,
+                new Rectangle(0, 0, verticalSlideWidthPixel, graphics.PreferredBackBufferHeight),
+                Color.White * slidesTextureAlphaLeft);
+
+            int arrowWidth, arrowHeight;
+            arrowWidth = (int)(verticalSlideWidthPixel * 0.9f);
+            arrowHeight = (int)(((float)arrowWidth / (float)rightArrowTexture.Width) * rightArrowTexture.Height);
+
+            spriteBatch.Draw(rightArrowTexture,
+                new Rectangle((verticalSlideWidthPixel - arrowWidth) / 2, (graphics.PreferredBackBufferHeight - arrowHeight) / 2,
+                    arrowWidth, arrowHeight),
+                null, Color.White * slidesTextureAlphaLeft, (float)Math.PI, new Vector2(rightArrowTexture.Width, rightArrowTexture.Height), SpriteEffects.None, 0f);
+
+            //right vertical slide
+            spriteBatch.Draw(verticalSlideTexture,
+                new Rectangle(graphics.PreferredBackBufferWidth - verticalSlideWidthPixel, 0, verticalSlideWidthPixel, graphics.PreferredBackBufferHeight),
+                Color.White * slidesTextureAlphaRight);
+            
+            spriteBatch.Draw(rightArrowTexture,
+                new Rectangle(graphics.PreferredBackBufferWidth - verticalSlideWidthPixel + ((verticalSlideWidthPixel - arrowWidth) / 2), (graphics.PreferredBackBufferHeight - arrowHeight) / 2,
+                    arrowWidth, arrowHeight),
+                    Color.White * slidesTextureAlphaRight);
+
+            spriteBatch.End();
+
+            
+        }
+
+        protected void PanoSlideDraw(GameTime gameTime) 
         {
             if (!applicationLoadCompleteSignalled)
             {

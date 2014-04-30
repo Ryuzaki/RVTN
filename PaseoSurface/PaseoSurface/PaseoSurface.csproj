@@ -116,6 +116,10 @@
     <Compile Include="App1.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PaseoVirtualFast.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
   </ItemGroup>

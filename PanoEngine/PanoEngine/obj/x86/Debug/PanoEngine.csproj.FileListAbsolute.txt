@@ -146,3 +146,14 @@ C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual pa
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PaseoVirtual00.xml
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Effects\TransEffect.xnb
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.csprojResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PaseoVirtual Test.xml
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PaseoVirtual00.xml
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Assets\GoTo.xnb
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Assets\HotSpot.xnb
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\Content\Effects\TransEffect.xnb
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PanoEngine.exe
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\bin\x86\Debug\PanoEngine.pdb
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.csprojResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.exe
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PanoEngine\PanoEngine\obj\x86\Debug\PanoEngine.pdb

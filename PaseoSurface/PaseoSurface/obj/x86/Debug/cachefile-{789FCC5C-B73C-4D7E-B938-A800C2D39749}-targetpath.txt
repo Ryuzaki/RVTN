@@ -1,0 +1,7 @@
+Content\Interface\GoTo.xnb
+Content\Interface\HotSpot.xnb
+Content\Interface\loadingScreen.xnb
+Content\Interface\loadingArrow.xnb
+Content\Interface\RightArrow.xnb
+Content\Interface\VerticalSlide.xnb
+Content\Effects\TransEffect.xnb

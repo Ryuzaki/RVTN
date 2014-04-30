@@ -10,3 +10,9 @@ C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativ
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\obj\x86\Debug\FullHDNoXNA.csprojResolveAssemblyReference.cache
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\obj\x86\Debug\FullHDNoXNA.exe
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\obj\x86\Debug\FullHDNoXNA.pdb
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\bin\Debug\FullHDNoXNA.exe
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\bin\Debug\FullHDNoXNA.pdb
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\bin\Debug\Interop.QuartzTypeLib.dll
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\obj\x86\Debug\FullHDNoXNA.csprojResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\obj\x86\Debug\FullHDNoXNA.exe
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDNoXNA\obj\x86\Debug\FullHDNoXNA.pdb

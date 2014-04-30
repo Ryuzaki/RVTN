@@ -10,3 +10,8 @@ C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativ
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\obj\x86\Debug\PVXmlReader.exe
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\obj\x86\Debug\PVXmlReader.pdb
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\obj\x86\Debug\PVXmlReader.csprojResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\bin\Debug\PaseoVirtual1.xml
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\bin\Debug\PVXmlReader.exe
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\bin\Debug\PVXmlReader.pdb
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\obj\x86\Debug\PVXmlReader.exe
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PVXmlReader\obj\x86\Debug\PVXmlReader.pdb

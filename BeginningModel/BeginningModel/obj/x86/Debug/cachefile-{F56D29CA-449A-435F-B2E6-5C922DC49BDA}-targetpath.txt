@@ -1,0 +1,6 @@
+Content\Models\cobete.xnb
+Content\Models\cube.xnb
+Content\Effects\Red.xnb
+Content\Effects\Ambiente.xnb
+Content\Effects\Texture.xnb
+Content\Textures\texture01.xnb
