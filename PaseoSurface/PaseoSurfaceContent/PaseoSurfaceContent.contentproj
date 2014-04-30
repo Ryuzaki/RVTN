@@ -42,14 +42,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GoTo.png">
+    <Compile Include="Interface\GoTo.png">
       <Name>GoTo</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HotSpot.png">
+    <Compile Include="Interface\HotSpot.png">
       <Name>HotSpot</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -63,15 +63,27 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="loadingScreen.png">
+    <Compile Include="Interface\loadingScreen.png">
       <Name>loadingScreen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="loadingArrow.png">
+    <Compile Include="Interface\loadingArrow.png">
       <Name>loadingArrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\RightArrow.png">
+      <Name>RightArrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Interface\VerticalSlide.png">
+      <Name>VerticalSlide</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

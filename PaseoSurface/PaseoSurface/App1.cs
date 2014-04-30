@@ -25,6 +25,9 @@ namespace PaseoSurface
         private enum STATE { LOADING, PANO};
         private STATE currentState = STATE.LOADING;
 
+        private enum INPUT_MODE { PRESS, SLIDE };
+        private INPUT_MODE currentInputMode = INPUT_MODE.PRESS;
+
         private readonly GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
 
