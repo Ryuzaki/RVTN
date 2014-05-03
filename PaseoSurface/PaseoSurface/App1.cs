@@ -26,7 +26,7 @@ namespace PaseoSurface
         private STATE currentState = STATE.LOADING;
 
         private enum INPUT_MODE { PRESS, SLIDE };
-        private INPUT_MODE currentInputMode = INPUT_MODE.PRESS;
+        private INPUT_MODE currentInputMode = INPUT_MODE.SLIDE;
 
         private readonly GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
@@ -165,6 +165,8 @@ namespace PaseoSurface
             loadingTimerAnimation = new Timer(40); //25 fps
             loadingTimerAnimation.Elapsed += new ElapsedEventHandler(loadingTimerAnimation_Elapsed);
             loadingTimerAnimation.Enabled = true;
+
+
             base.Initialize();
         }
 
@@ -233,6 +235,24 @@ namespace PaseoSurface
 
         protected void PanoUpdate(GameTime gameTime)
         {
+            switch (currentInputMode) 
+            {
+                case INPUT_MODE.PRESS:
+                    PanoPressUpdate(gameTime);
+                    break;
+                case INPUT_MODE.SLIDE:
+                    PanoSlideUpdate(gameTime);
+                    break;
+                default: break;
+            }
+
+
+           
+        }
+
+
+        protected void PanoPressUpdate(GameTime gameTime) 
+        {
             if (ApplicationServices.WindowAvailability != WindowAvailability.Unavailable)
             {
                 if (ApplicationServices.WindowAvailability == WindowAvailability.Interactive)
@@ -251,7 +271,8 @@ namespace PaseoSurface
                             goLeft = true;
                             slidesTextureAlphaLeft = slidesTextureAlphaPressed;
                         }
-                        else {
+                        else
+                        {
                             slidesTextureAlphaLeft = slidesTextureAlphaNormal;
                         }
 
@@ -260,7 +281,8 @@ namespace PaseoSurface
                             goRight = true;
                             slidesTextureAlphaRight = slidesTextureAlphaPressed;
                         }
-                        else {
+                        else
+                        {
                             slidesTextureAlphaRight = slidesTextureAlphaNormal;
                         }
                     }
@@ -275,6 +297,23 @@ namespace PaseoSurface
                         PanoEngine.PanoEngine.PECamera.RotateLookAt(-movRad, Camera.AXIS.Y);
                     }
 
+                }
+
+                // TODO: Add your update logic here
+                if (PanoEngine.PanoEngine.PEPaseoCreated) PanoEngine.PanoEngine.PEPaseo.Update(gameTime);
+            }
+        }
+
+        protected void PanoSlideUpdate(GameTime gameTime)
+        {
+
+            if (ApplicationServices.WindowAvailability != WindowAvailability.Unavailable)
+            {
+                if (ApplicationServices.WindowAvailability == WindowAvailability.Interactive)
+                {
+                    // TODO: Process touches, 
+                    // use the following code to get the state of all current touch points.
+                    ReadOnlyTouchPointCollection touches = touchTarget.GetState();
                 }
 
                 // TODO: Add your update logic here

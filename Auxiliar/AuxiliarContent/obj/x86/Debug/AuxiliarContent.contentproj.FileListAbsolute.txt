@@ -1,2 +1,3 @@
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Auxiliar\AuxiliarContent\obj\x86\Debug\AuxiliarContent.contentprojResolveAssemblyReference.cache
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Auxiliar\AuxiliarContent\obj\x86\Debug\AuxiliarContent.contentprojResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Auxiliar\AuxiliarContent\obj\x86\Debug\AuxiliarContent.contentprojResolveAssemblyReference.cache
