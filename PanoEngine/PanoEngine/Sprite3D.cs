@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System.IO;
+using Microsoft.Xna.Framework.Content;
 
 namespace PanoEngine
 {
@@ -12,7 +13,8 @@ namespace PanoEngine
     {
         #region Fields
 
-        protected GraphicsDevice _graphicsDevice;
+        //protected GraphicsDevice _graphicsDevice;
+        //protected ContentManager _content;
         protected String _texturePath;
         protected Texture2D _texture;
         protected VertexPositionTexture[] _verts;
@@ -142,7 +144,7 @@ namespace PanoEngine
 
         #region Constructor, Draw and Update
 
-        public Sprite3D(float ancho, float alto)
+        public Sprite3D(GraphicsDevice g, ContentManager c, float ancho, float alto)
         {
             ConstructorSprite3D(ancho, alto, null);
         }
@@ -157,7 +159,7 @@ namespace PanoEngine
             _ancho = ancho;
             _alto = alto;
             _scale = Matrix.CreateScale(_ancho / 2, _alto / 2, 1.0f);
-            _graphicsDevice = PanoEngine.PEGraphicsDevice;
+            //_graphicsDevice = PanoEngine.PEGraphicsDevice;
             _texturePath = textureP;
             basicEffect = new BasicEffect(_graphicsDevice);
             //Crear el cuadrado a partir de 4 vertices

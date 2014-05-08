@@ -16,23 +16,26 @@ using System.Threading.Tasks;
 /// </summary>
 namespace PanoEngine
 {
-    public static class PanoEngine
+    public class PanoEngine
     {
         #region Fields
-        public static GraphicsDevice PEGraphicsDevice;
-        public static ContentManager PEContent;
-        public static Game PEAssociatedGame;
-        public static Camera PECamera;
-        public static int PEPointerX;
-        public static int PEPointerY;
-        public static bool PEPointerPressed;
-        public static bool PEPointerReleased;
-        public static bool PEPaseoCreated;
-        public static PaseoVirtual PEPaseo;
-        public static bool MovementEnabled = true;
+        //private static PanoEngine _instance;
 
-        public static TimeSpan stop;
-        public static TimeSpan start;
+        //public Game _associatedGame;
+        //public GraphicsDevice _graphicsDevice;
+        //public ContentManager _content;
+        
+        //public Camera _camera;
+        public int _pointerX;
+        public int _pointerY;
+        public bool PEPointerPressed;
+        public bool PEPointerReleased;
+        public bool PEPaseoCreated;
+        public PaseoVirtual _lastPaseoVirtual;
+        public bool MovementEnabled = true;
+
+        //public static TimeSpan stop;
+        //public static TimeSpan start;
 
         private static Dictionary<HotSpace.WALL, String> mapWallString = new Dictionary<HotSpace.WALL, string>()
         {
@@ -45,7 +48,37 @@ namespace PanoEngine
         #endregion
 
         #region Properties
-        
+        /*public static PanoEngine Instance
+        {
+            get {
+                if (_instance == null) {
+                    _instance = new PanoEngine();
+                }
+                return _instance;
+            }
+        }*/
+
+        public PaseoVirtual LastPaseoVirtual
+        {
+            get
+            {
+                return _lastPaseoVirtual;
+            }
+        }
+        /*public GraphicsDevice GraphicsDevice
+        {
+            get
+            {
+                return _graphicsDevice;
+            }
+        }
+        public ContentManager Content
+        {
+            get
+            {
+                return _content;
+            }
+        }*/
 
         #endregion
 
@@ -57,20 +90,19 @@ namespace PanoEngine
         /// <param name="game">Game de XNA al que estará asociado el engine.</param>
         /// <param name="gD">GraphicsDevice del juego.</param>
         /// <param name="oldContent">Contenedor del juego del cual se hará una copia para usar los contenidos de la libreria</param>
-        public static void PEInitialize(Game game) 
+        public void Initialize(Game game) 
         {
-            PEAssociatedGame = game;
-            PEGraphicsDevice = game.GraphicsDevice;
-            PEContent = new ContentManager(game.Content.ServiceProvider, "Content");
-            PECamera = new Camera(Vector3.Zero, new Vector3(0, 0, -1), Vector3.Up);
-            game.Components.Add(PECamera);
+            _associatedGame = game;
+            _graphicsDevice = game.GraphicsDevice;
+            _content = new ContentManager(game.Content.ServiceProvider, "Content");
+            _camera = new Camera(Vector3.Zero, new Vector3(0, 0, -1), Vector3.Up);
+            game.Components.Add(_camera);
 
-            PEPointerX = 0;
-            PEPointerY = 0;
+            _pointerX = 0;
+            _pointerY = 0;
             PEPointerPressed = false;
             PEPointerReleased = false;
             PEPaseoCreated = false;
-            PEPaseo = new PaseoVirtual();
         }
 
         /// <summary>
@@ -78,15 +110,16 @@ namespace PanoEngine
         /// </summary>
         /// <param name="pvfile">Archivo XML con la configuracion del PaseoVirtual.</param>
         /// <returns>El paseo virtual editado</returns>
-        public static void PECreatePaseoVirtual(string pvfile) 
+        public void CreatePaseoVirtual(string pvfile) 
         {
             System.Diagnostics.Debug.WriteLine("Leyendo paseo virtual...");
+            _lastPaseoVirtual = new PaseoVirtual();
             Task task = new Task(() => CreatePaseo(pvfile));
             task.ContinueWith((t) => CreatePaseoFinished());
             task.Start();
             System.Diagnostics.Debug.WriteLine("Paseo virtual leyendose...");
         }
-        private static void CreatePaseo(String pvfile)
+        private void CreatePaseo(String pvfile)
         {
             using (FileStream fileStream = File.OpenRead(pvfile))
             {
@@ -99,7 +132,7 @@ namespace PanoEngine
                     //Nombre del paseo
                     reader.Read();
                     reader.MoveToNextAttribute();
-                    PEPaseo.Name = reader.Value;
+                    _lastPaseoVirtual.Name = reader.Value;
                     while (reader.Read())
                     {
                         if (reader.NodeType == XmlNodeType.Element && reader.Name == "HotSpace")
@@ -107,17 +140,17 @@ namespace PanoEngine
                             if (reader.IsStartElement())
                             {
                                 //<HotSpace>
-                                PEPaseo = procesarHotSpace(reader, PEPaseo);
+                                _lastPaseoVirtual = procesarHotSpace(reader, _lastPaseoVirtual);
                             }
                         }
                     }
                 }
-                PEPaseo.LoadContentCurrentHotSpace();
+                _lastPaseoVirtual.LoadContentCurrentHotSpace();
             }
             System.Diagnostics.Debug.WriteLine("Create Paseo Finished v1");
         }
 
-        private static void CreatePaseoFinished() 
+        private void CreatePaseoFinished() 
         {
             System.Diagnostics.Debug.WriteLine("Create Paseo Finished v2");
             PEPaseoCreated = true;
