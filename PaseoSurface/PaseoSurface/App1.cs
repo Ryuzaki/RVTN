@@ -11,7 +11,6 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-using PanoEngine;
 using System.Timers;
 
 namespace PaseoSurface
@@ -44,6 +43,7 @@ namespace PaseoSurface
         private float rotationArrow = 0.0f;
         private Timer loadingTimerAnimation;
         /** PANO STATE **/
+        private PaseoVirtual paseoVirtual;
         private Texture2D verticalSlideTexture;
         private int verticalSlideWidthPixel = 100;
         private Texture2D rightArrowTexture;
@@ -66,6 +66,10 @@ namespace PaseoSurface
             graphics.PreferMultiSampling = true;
             graphics.ApplyChanges();
             Content.RootDirectory = "Content";
+
+            Resources.Instance.GraphicsDevice = GraphicsDevice;
+            Resources.Instance.Content = Content;
+            Resources.Instance.Game = this;
         }
 
         #region Initialization
@@ -114,9 +118,9 @@ namespace PaseoSurface
 
         void touchTarget_TouchDown(object sender, TouchEventArgs e)
         {
-            PanoEngine.PanoEngine.PEPointerPressed = true;
-            PanoEngine.PanoEngine.PEPointerX = (int)e.TouchPoint.X;
-            PanoEngine.PanoEngine.PEPointerY = (int)e.TouchPoint.Y;
+            Resources.Instance.PointerPressed = true;
+            Resources.Instance.PointerX = (int)e.TouchPoint.X;
+            Resources.Instance.PointerY = (int)e.TouchPoint.Y;
         }
 
         #endregion
@@ -159,8 +163,8 @@ namespace PaseoSurface
             }
 
             //Custom Initialize
-            PanoEngine.PanoEngine.PEInitialize(this);
-            PanoEngine.PanoEngine.PECreatePaseoVirtual("PaseoVirtualFast.xml");
+            paseoVirtual = new PaseoVirtual();
+            paseoVirtual.Create("PaseoVirtualFast.xml");
 
             loadingTimerAnimation = new Timer(40); //25 fps
             loadingTimerAnimation.Elapsed += new ElapsedEventHandler(loadingTimerAnimation_Elapsed);
@@ -226,7 +230,7 @@ namespace PaseoSurface
 
         protected void LoadingUpdate(GameTime gameTime)
         {
-            if (PanoEngine.PanoEngine.PEPaseoCreated)
+            if (paseoVirtual.IsPaseoVirtualCreated)
             {
                 loadingTimerAnimation.Enabled = false;
                 currentState = STATE.PANO;
@@ -290,17 +294,17 @@ namespace PaseoSurface
                     float movRad = 0.01f;
                     if (goLeft && !goRight)
                     {
-                        PanoEngine.PanoEngine.PECamera.RotateLookAt(movRad, Camera.AXIS.Y);
+                        Resources.Instance.Camera.RotateLookAt(movRad, Camera.AXIS.Y);
                     }
                     if (goRight && !goLeft)
                     {
-                        PanoEngine.PanoEngine.PECamera.RotateLookAt(-movRad, Camera.AXIS.Y);
+                        Resources.Instance.Camera.RotateLookAt(-movRad, Camera.AXIS.Y);
                     }
 
                 }
 
                 // TODO: Add your update logic here
-                if (PanoEngine.PanoEngine.PEPaseoCreated) PanoEngine.PanoEngine.PEPaseo.Update(gameTime);
+                if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Update(gameTime);
             }
         }
 
@@ -317,7 +321,7 @@ namespace PaseoSurface
                 }
 
                 // TODO: Add your update logic here
-                if (PanoEngine.PanoEngine.PEPaseoCreated) PanoEngine.PanoEngine.PEPaseo.Update(gameTime);
+                if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Update(gameTime);
             }
         }
 
@@ -391,7 +395,7 @@ namespace PaseoSurface
 
             //TODO: Add your drawing code here
             //TODO: Avoid any expensive logic if application is neither active nor previewed
-            if (PanoEngine.PanoEngine.PEPaseoCreated) PanoEngine.PanoEngine.PEPaseo.Draw();
+            if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Draw();
 
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
             //left vertical slide
@@ -438,7 +442,7 @@ namespace PaseoSurface
 
             //TODO: Add your drawing code here
             //TODO: Avoid any expensive logic if application is neither active nor previewed
-            if (PanoEngine.PanoEngine.PEPaseoCreated) PanoEngine.PanoEngine.PEPaseo.Draw();
+            if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Draw();
         }
 
 
