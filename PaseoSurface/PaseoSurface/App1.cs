@@ -12,6 +12,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.Timers;
+using Microsoft.Xna.Framework.Input.Touch;
 
 namespace PaseoSurface
 {
@@ -25,7 +26,7 @@ namespace PaseoSurface
         private STATE currentState = STATE.LOADING;
 
         private enum INPUT_MODE { PRESS, SLIDE };
-        private INPUT_MODE currentInputMode = INPUT_MODE.SLIDE;
+        private INPUT_MODE currentInputMode = INPUT_MODE.PRESS;
 
         private readonly GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
@@ -66,10 +67,6 @@ namespace PaseoSurface
             graphics.PreferMultiSampling = true;
             graphics.ApplyChanges();
             Content.RootDirectory = "Content";
-
-            Resources.Instance.GraphicsDevice = GraphicsDevice;
-            Resources.Instance.Content = Content;
-            Resources.Instance.Game = this;
         }
 
         #region Initialization
@@ -136,6 +133,11 @@ namespace PaseoSurface
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            Resources.Instance.GraphicsDevice = GraphicsDevice;
+            Resources.Instance.Content = Content;
+            Resources.Instance.Game = this;
+            TouchPanel.EnabledGestures = GestureType.FreeDrag | GestureType.Tap;
+            TouchPanel.WindowHandle = this.Window.Handle;
 
             IsMouseVisible = true; // easier for debugging not to "lose" mouse
             SetWindowOnSurface();
@@ -254,7 +256,6 @@ namespace PaseoSurface
            
         }
 
-
         protected void PanoPressUpdate(GameTime gameTime) 
         {
             if (ApplicationServices.WindowAvailability != WindowAvailability.Unavailable)
@@ -303,6 +304,17 @@ namespace PaseoSurface
 
                 }
 
+                if (paseoVirtual.State == PaseoVirtual.STATE.BLENDING)
+                {
+                    slidesTextureAlphaLeft = 0.0f;
+                    slidesTextureAlphaRight = 0.0f;
+                }
+                else
+                {
+                    slidesTextureAlphaRight = slidesTextureAlphaNormal;
+                    slidesTextureAlphaLeft = slidesTextureAlphaNormal;
+                }
+
                 // TODO: Add your update logic here
                 if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Update(gameTime);
             }
@@ -319,6 +331,16 @@ namespace PaseoSurface
                     // use the following code to get the state of all current touch points.
                     ReadOnlyTouchPointCollection touches = touchTarget.GetState();
                 }
+                /*System.Diagnostics.Debug.WriteLine("Before gesture handler");
+                while (TouchPanel.IsGestureAvailable)
+                {
+                    var gesture = TouchPanel.ReadGesture();
+                    if (gesture.GestureType == GestureType.FreeDrag)
+                    {
+                        System.Diagnostics.Debug.WriteLine(gesture.Delta);
+                    }
+                }
+                System.Diagnostics.Debug.WriteLine("After gesture handler");*/
 
                 // TODO: Add your update logic here
                 if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Update(gameTime);

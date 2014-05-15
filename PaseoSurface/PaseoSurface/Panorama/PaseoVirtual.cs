@@ -17,12 +17,16 @@ namespace PaseoSurface
         #region Fields
 
         private bool _isPaseoVirtualCreated;
-        private int _pointerX;
-        private int _pointerY;
-        private bool _pointerPressed;
-        private bool _pointerReleased;
-        private bool _paseoCreated;
-        private bool _movementEnabled = true;
+        public Game Game { get; set; }
+        public ContentManager Content { get; set; }
+        public GraphicsDevice GraphicsDevice { get; set; }
+
+        public Camera Camera { get; set; }
+        public bool MovementEnabled { get; set; }
+        public bool Transitioning { get; set; }
+        public bool PointerPressed { get; set; }
+        public int PointerX { get; set; }
+        public int PointerY { get; set; }
 
         public static TimeSpan stop;
         public static TimeSpan start;
@@ -36,13 +40,12 @@ namespace PaseoSurface
         };
 
 
-        private enum STATE { NORMAL, TRANSITION, BLENDING };
-        private STATE state = STATE.NORMAL;
+        public enum STATE { NORMAL, TRANSITION, BLENDING };
+        public STATE State { get; set; }
         private String name;
         private List<HotSpace> listaHotSpace; //mal
         private int currentHotSpace, nextHotSpace;
         private int blendingDurationSeg = 3; //duracion de la transicion en segundos
-        private int rotationDurationSeg = 2; //duracion de la transicion de giro en segundos
 
 
 
@@ -73,35 +76,37 @@ namespace PaseoSurface
         #region Constructor, Draw and Update
 
         public PaseoVirtual() {
+            Resources.Instance.Camera = new Camera(Vector3.Zero, new Vector3(0, 0, -1), Vector3.Up);
+            Resources.Instance.Game.Components.Add(Resources.Instance.Camera);
+            State = STATE.NORMAL;
+
+            //_pointerX = 0;
+            //_pointerY = 0;
+            //_pointerPressed = false;
+            //_pointerReleased = false;
+            //_paseoCreated = false;
+            _isPaseoVirtualCreated = false;
+            listaHotSpace = new List<HotSpace>();
+            currentHotSpace = 0;
         }
 
         public void Initialize(Game game)
         {
-            Resources.Instance.Camera = new Camera(Vector3.Zero, new Vector3(0, 0, -1), Vector3.Up);
-            game.Components.Add(Resources.Instance.Camera);
-
-            _pointerX = 0;
-            _pointerY = 0;
-            _pointerPressed = false;
-            _pointerReleased = false;
-            _paseoCreated = false;
-            _isPaseoVirtualCreated = false;
-            listaHotSpace = new List<HotSpace>();
-            currentHotSpace = 0;
+            
         }
 
         
 
         public virtual void Update(GameTime gameTime) {
 
-            switch (state) { 
+            switch (State) { 
                 case STATE.NORMAL:
                     
                     break;
                 case STATE.TRANSITION:
                     if (listaHotSpace[currentHotSpace].RotationAnimationUpdate(gameTime))
                     {
-                        state = STATE.BLENDING;
+                        State = STATE.BLENDING;
                         Resources.Instance.MovementEnabled = true; //Habilitar el movimiento de la camara al acabar la animacion de transicion
                         listaHotSpace[currentHotSpace].BeginBlendingAnimation(
                         listaHotSpace[nextHotSpace].GetTexturesList(), blendingDurationSeg, gameTime);
@@ -113,7 +118,7 @@ namespace PaseoSurface
                     {
                         listaHotSpace[currentHotSpace].UnloadContent();
                         currentHotSpace = nextHotSpace;
-                        state = STATE.NORMAL;
+                        State = STATE.NORMAL;
                     }
                     break;
                 default: break;
@@ -151,8 +156,8 @@ namespace PaseoSurface
             {
                 if (listaHotSpace[i].Name.CompareTo(destinyName) == 0)
                 {
-                    state = STATE.TRANSITION;
-                    _movementEnabled = false; //Deshabilitar el movimiento de la camara mientras se hace la animacion de transicion
+                    State = STATE.TRANSITION;
+                    //_movementEnabled = false; //Deshabilitar el movimiento de la camara mientras se hace la animacion de transicion
                     nextHotSpace = i;
                     stop = new TimeSpan(DateTime.Now.Ticks);
                     //Console.WriteLine("Antes de cargar LoadContent del HotSpace numero " + nextHotSpace + " :" + PanoEngine.stop.Subtract(PanoEngine.start).TotalMilliseconds);

@@ -13,9 +13,10 @@ namespace PaseoSurface
         public Game Game {get; set;}
         public ContentManager Content { get; set; }
         public GraphicsDevice GraphicsDevice { get; set; }
+
         public Camera Camera { get; set; }
         public bool MovementEnabled { get; set; }
-
+        public bool Transitioning { get; set; }
         public bool PointerPressed { get; set; }
         public int PointerX { get; set; }
         public int PointerY { get; set; }
@@ -37,7 +38,13 @@ namespace PaseoSurface
             }
         }
 
-        private Resources() { }
+        private Resources() {
+            MovementEnabled = true;
+            Transitioning = false;
+            PointerPressed = false;
+            PointerX = 0;
+            PointerY = 0;
+        }
 
         #endregion
 

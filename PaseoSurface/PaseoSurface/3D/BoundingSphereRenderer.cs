@@ -10,7 +10,7 @@ namespace PaseoSurface
     public static class BoundingSphereRenderer
     {
         static VertexBuffer vertBuffer;
-        static VertexDeclaration vertDecl;
+        //static VertexDeclaration vertDecl;
         static BasicEffect effect;
         static int sphereResolution;
 

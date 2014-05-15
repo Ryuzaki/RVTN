@@ -13,7 +13,7 @@ namespace PaseoSurface
         #region Fields
         private ClickGoToHandler goToEvent;
 
-        private bool wasPressed = false;
+        //private bool wasPressed = false;
 
         private String destinyName;
 
@@ -45,7 +45,7 @@ namespace PaseoSurface
         #region Contructor, Draw and Update
 
 
-        public GoTo():base(1.0f,1.0f,@"Assets\GoTo")
+        public GoTo():base(1.0f,1.0f,@"Interface\GoTo")
         {
             LoadContent();
         }

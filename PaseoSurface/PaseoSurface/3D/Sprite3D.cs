@@ -159,7 +159,8 @@ namespace PaseoSurface
             _scale = Matrix.CreateScale(_ancho / 2, _alto / 2, 1.0f);
             //_graphicsDevice = PanoEngine.PEGraphicsDevice;
             _texturePath = textureP;
-            basicEffect = new BasicEffect(Resources.Instance.GraphicsDevice);
+            GraphicsDevice gd = Resources.Instance.GraphicsDevice;
+            basicEffect = new BasicEffect(gd);
             //Crear el cuadrado a partir de 4 vertices
             _verts = new VertexPositionTexture[4];
             //Aunque se cree cuadrado se cambiara al ser multiplicado por su matriz de escalado

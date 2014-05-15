@@ -13,7 +13,7 @@ namespace PaseoSurface
         #region Fields
         private ClickEventHandler clickEvent;
 
-        private bool wasPressed = false;
+        //private bool wasPressed = false;
 
         #endregion
 
@@ -32,7 +32,7 @@ namespace PaseoSurface
         #region Contructor, Draw and Update
 
 
-        public HotSpot():base(1.0f,1.0f,@"Assets\HotSpot")
+        public HotSpot():base(1.0f,1.0f,@"Interface\HotSpot")
         {
             LoadContent();
         }
