@@ -45,9 +45,15 @@ namespace PaseoSurface
         private String name;
         private List<HotSpace> listaHotSpace; //mal
         private int currentHotSpace, nextHotSpace;
-        private int blendingDurationSeg = 3; //duracion de la transicion en segundos
+        
 
 
+        /** BLENDING **/
+        private int blendingDurationMili = 3000;
+        private float alphaBlending = 0.0f;
+        private double blendingInitMili;
+        private RenderTarget2D renderTarget;
+        private Texture2D beforeTexture, afterTexture;
 
         #endregion
 
@@ -88,6 +94,10 @@ namespace PaseoSurface
             _isPaseoVirtualCreated = false;
             listaHotSpace = new List<HotSpace>();
             currentHotSpace = 0;
+
+            PresentationParameters pp = Resources.Instance.GraphicsDevice.PresentationParameters;
+            renderTarget = new RenderTarget2D(Resources.Instance.GraphicsDevice, pp.BackBufferWidth, pp.BackBufferHeight, true,
+                Resources.Instance.GraphicsDevice.DisplayMode.Format, DepthFormat.Depth24);
         }
 
         public void Initialize(Game game)
@@ -107,14 +117,12 @@ namespace PaseoSurface
                     if (listaHotSpace[currentHotSpace].RotationAnimationUpdate(gameTime))
                     {
                         State = STATE.BLENDING;
-                        Resources.Instance.MovementEnabled = true; //Habilitar el movimiento de la camara al acabar la animacion de transicion
-                        listaHotSpace[currentHotSpace].BeginBlendingAnimation(
-                        listaHotSpace[nextHotSpace].GetTexturesList(), blendingDurationSeg, gameTime);
+                        BeginAnimationBlending(gameTime);
                     }
 
                     break;
                 case STATE.BLENDING:
-                    if (listaHotSpace[currentHotSpace].BlendingAnimationUpdate(gameTime))
+                    if (UpdateAnimationBlending(gameTime))
                     {
                         listaHotSpace[currentHotSpace].UnloadContent();
                         currentHotSpace = nextHotSpace;
@@ -128,12 +136,76 @@ namespace PaseoSurface
         }
 
         public virtual void Draw() {
-            listaHotSpace[currentHotSpace].Draw(Resources.Instance.Camera);
+
+            switch (State)
+            {
+                case STATE.NORMAL:
+                case STATE.TRANSITION:
+                    listaHotSpace[currentHotSpace].Draw(Resources.Instance.Camera);
+                    break;
+                case STATE.BLENDING:
+                    DrawAnimationBlending();
+                    break;
+                default: break;
+            }
+            
         }
 
         #endregion
 
         #region Functionality Methods
+
+        private void BeginAnimationBlending(GameTime gameTime) 
+        {
+            //Change the render target
+            Resources.Instance.GraphicsDevice.SetRenderTarget(renderTarget);
+            //Paint it
+            Resources.Instance.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
+            //Draw the vision in this hotspace
+            listaHotSpace[currentHotSpace].Draw(Resources.Instance.Camera);
+            //Put that vision on a texture
+            beforeTexture = (Texture2D)renderTarget;
+            //Draw the vision of the next hotspace
+            listaHotSpace[nextHotSpace].Draw(Resources.Instance.Camera);
+            //Draw it on another texture
+            afterTexture = (Texture2D)renderTarget;
+            //Reset the target to the default target (screen)
+            Resources.Instance.GraphicsDevice.SetRenderTarget(null);
+
+            alphaBlending = 0.0f;
+            blendingInitMili = gameTime.TotalGameTime.TotalMilliseconds;
+        }
+
+        private bool UpdateAnimationBlending(GameTime gameTime) 
+        {
+            double now = gameTime.TotalGameTime.TotalMilliseconds;
+            if (now - blendingInitMili <= blendingDurationMili) {
+                alphaBlending = (float)((now - blendingInitMili) / blendingInitMili);
+                return false;
+            }
+            return true;
+        }
+
+        private void DrawAnimationBlending() {
+            Texture2D res = new Texture2D(Resources.Instance.GraphicsDevice,afterTexture.Width, afterTexture.Height,false, SurfaceFormat.Color);
+            int[] afterData = new int[afterTexture.Width * afterTexture.Height];
+            int[] beforeData = new int[beforeTexture.Width * beforeTexture.Height];
+            afterTexture.GetData<int>(afterData);
+            beforeTexture.GetData<int>(beforeData);
+
+            int[] resData = new int[afterData.Length];
+            for(int i = 0; i < afterData.Length; ++i){
+                resData[i] = (int)((alphaBlending * afterData[i]) + ((1 - alphaBlending) * beforeData[i]));
+            }
+            res.SetData(resData);
+
+            SpriteBatch sp = new SpriteBatch(Resources.Instance.GraphicsDevice);
+            sp.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
+            sp.Draw(res,
+                new Rectangle(0, 0, Resources.Instance.ScreenWidth, Resources.Instance.ScreenHeight),
+                Color.White);
+            sp.End();
+        }
 
         public void LoadContentCurrentHotSpace() {
             //cargar contenedor actual

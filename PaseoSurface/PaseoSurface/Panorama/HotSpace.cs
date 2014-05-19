@@ -219,7 +219,7 @@ namespace PaseoSurface
         }
 
         public bool BlendingAnimationUpdate(GameTime gameTime) {
-            if (initBlending != null) {
+            /*if (initBlending != null) {
                 //Calcular porcentaje de avance de la animacion
                 float porcentaje = (float)((int)gameTime.TotalGameTime.TotalMilliseconds - initBlending) / (float)blendingDurationMiliseg;
                 foreach (Sprite3D cuadrado in faces)
@@ -231,7 +231,7 @@ namespace PaseoSurface
                     initBlending = null;
                     return true;
                 }
-            }
+            }*/
             return false;
         }
         
@@ -384,12 +384,12 @@ namespace PaseoSurface
 
         public void BeginBlendingAnimation(Texture2D[] listaTexturas, int duration, GameTime gameTime)
         {
-            initBlending = (int)gameTime.TotalGameTime.TotalMilliseconds;
+            /*initBlending = (int)gameTime.TotalGameTime.TotalMilliseconds;
             blendingDurationMiliseg = duration * 1000;
             faces[0].BeginTransitionAnimation(listaTexturas[0], effect);
             faces[1].BeginTransitionAnimation(listaTexturas[1], effect);
             faces[2].BeginTransitionAnimation(listaTexturas[2], effect);
-            faces[3].BeginTransitionAnimation(listaTexturas[3], effect);
+            faces[3].BeginTransitionAnimation(listaTexturas[3], effect);*/
         }
 
         public void BeginRotationAnimation(Vector2 pointer)

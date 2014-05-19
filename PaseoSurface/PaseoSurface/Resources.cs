@@ -13,6 +13,8 @@ namespace PaseoSurface
         public Game Game {get; set;}
         public ContentManager Content { get; set; }
         public GraphicsDevice GraphicsDevice { get; set; }
+        public int ScreenWidth { get; set; }
+        public int ScreenHeight { get; set; }
 
         public Camera Camera { get; set; }
         public bool MovementEnabled { get; set; }

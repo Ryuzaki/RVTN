@@ -32,6 +32,7 @@ namespace PaseoSurface
         private SpriteBatch spriteBatch;
 
         private TouchTarget touchTarget;
+        private TouchPoint touchPointForSlide;
         private Color backgroundColor = new Color(81, 81, 81);
         private bool applicationLoadCompleteSignalled;
 
@@ -111,13 +112,44 @@ namespace PaseoSurface
             touchTarget.EnableInput();
 
             touchTarget.TouchDown += new EventHandler<TouchEventArgs>(touchTarget_TouchDown);
+            touchTarget.TouchUp += new EventHandler<TouchEventArgs>(touchTarget_TouchUp);
+            touchTarget.TouchMove += new EventHandler<TouchEventArgs>(touchTarget_TouchMove);
+            touchTarget.TouchTapGesture += new EventHandler<TouchEventArgs>(touchTarget_TouchTapGesture);
+        }
+
+        void touchTarget_TouchUp(object sender, TouchEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Touch Up: " + e.TouchPoint.Id);
         }
 
         void touchTarget_TouchDown(object sender, TouchEventArgs e)
         {
+            System.Diagnostics.Debug.WriteLine("Touch Down: " + e.TouchPoint.Id);
+        }
+
+        void touchTarget_TouchTapGesture(object sender, TouchEventArgs e)
+        {
             Resources.Instance.PointerPressed = true;
             Resources.Instance.PointerX = (int)e.TouchPoint.X;
             Resources.Instance.PointerY = (int)e.TouchPoint.Y;
+        }
+
+        void touchTarget_TouchMove(object sender, TouchEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Toutch Move");
+            if (e.TouchPoint.IsFingerRecognized) {
+                if (touchPointForSlide != null && touchPointForSlide.Id == e.TouchPoint.Id)
+                {
+                    float deltaX = Math.Abs(e.TouchPoint.CenterX - touchPointForSlide.CenterX);
+                    if (e.TouchPoint.CenterX - touchPointForSlide.CenterX > 0)
+                        Resources.Instance.Camera.RotateLookAt(0.0015f * deltaX, Camera.AXIS.Y);
+                    else {
+                        Resources.Instance.Camera.RotateLookAt(-0.0015f * deltaX, Camera.AXIS.Y);
+                    }
+                    
+                }
+                touchPointForSlide = e.TouchPoint;
+            }
         }
 
         #endregion
