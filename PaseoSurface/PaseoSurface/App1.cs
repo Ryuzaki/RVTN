@@ -17,7 +17,23 @@ using Microsoft.Xna.Framework.Input.Touch;
 namespace PaseoSurface
 {
     /// <summary>
-    /// This is the main type for your application.
+    /// La app se divide en 2 escenas.
+    /// 
+    /// Escena de carga:
+    /// mientras el paseo virtual realizar el proceso de estructuracion y de carga se muestra una imagen para indicar al usuario
+    /// que este proceso esta siendo llevado a cabo.
+    /// 
+    /// Escena de juego:
+    /// el paseo virtual se muestra al usuario y se puede interactuar con el.
+    /// La interaccion se peude dar de dos maneras distintas:
+    /// 
+    /// Press:
+    /// Dos franjas, cuyo tamaño es especificado en el archivo de configuracion, son dibujadas a los laterales de la pantalla.
+    /// Pulsar una de esas franjas nos permite movernos por el escenario.
+    /// 
+    /// Slide:
+    /// Sin dibujar franjas, se puede arrastar, con un dedo, en la pantalla del dispositivo para moverse por el escenario.
+    /// 
     /// </summary>
     public class App1 : Microsoft.Xna.Framework.Game
     {
@@ -137,7 +153,7 @@ namespace PaseoSurface
         void touchTarget_TouchMove(object sender, TouchEventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("Toutch Move");
-            if (e.TouchPoint.IsFingerRecognized) {
+            if (currentInputMode == INPUT_MODE.SLIDE && e.TouchPoint.IsFingerRecognized) {
                 if (touchPointForSlide != null && touchPointForSlide.Id == e.TouchPoint.Id)
                 {
                     float deltaX = Math.Abs(e.TouchPoint.CenterX - touchPointForSlide.CenterX);
@@ -363,16 +379,6 @@ namespace PaseoSurface
                     // use the following code to get the state of all current touch points.
                     ReadOnlyTouchPointCollection touches = touchTarget.GetState();
                 }
-                /*System.Diagnostics.Debug.WriteLine("Before gesture handler");
-                while (TouchPanel.IsGestureAvailable)
-                {
-                    var gesture = TouchPanel.ReadGesture();
-                    if (gesture.GestureType == GestureType.FreeDrag)
-                    {
-                        System.Diagnostics.Debug.WriteLine(gesture.Delta);
-                    }
-                }
-                System.Diagnostics.Debug.WriteLine("After gesture handler");*/
 
                 // TODO: Add your update logic here
                 if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Update(gameTime);
