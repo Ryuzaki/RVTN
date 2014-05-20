@@ -31,3 +31,20 @@ C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual pa
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\obj\x86\Debug\PaseoSurface.exe
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\obj\x86\Debug\PaseoSurface.pdb
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\PaseoVirtualFast.xml
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\PaseoVirtualFast.xml
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\PaseoVirtual00.xml
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Resources\icon.png
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\PaseoSurface.xml
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\GoTo.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\HotSpot.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\loadingScreen.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\loadingArrow.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\RightArrow.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\VerticalSlide.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Effects\TransEffect.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\PaseoSurface.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\PaseoSurface.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\obj\x86\Debug\PaseoSurface.csprojResolveAssemblyReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\obj\x86\Debug\PaseoSurface.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\obj\x86\Debug\PaseoSurface.pdb

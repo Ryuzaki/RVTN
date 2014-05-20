@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBoxContent\Models\plane.fbx</SourceFilename>
+      <SourceFilename>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBoxContent\Models\plane.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>

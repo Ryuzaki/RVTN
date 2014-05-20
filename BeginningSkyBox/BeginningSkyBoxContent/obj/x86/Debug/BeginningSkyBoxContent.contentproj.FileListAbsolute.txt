@@ -2,3 +2,4 @@ C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual pa
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBoxContent\obj\x86\Debug\BeginningSkyBoxContent.contentprojResolveAssemblyReference.cache
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBoxContent\obj\x86\Debug\BeginningSkyBoxContent.contentprojResolveAssemblyReference.cache
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBoxContent\obj\x86\Debug\BeginningSkyBoxContent.contentprojResolveAssemblyReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBoxContent\obj\x86\Debug\BeginningSkyBoxContent.contentprojResolveAssemblyReference.cache

@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\GoTo.xnb</Output>
-      <Time>2014-04-03T10:58:12.939959+02:00</Time>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\GoTo.xnb</Output>
+      <Time>2014-05-20T09:36:14.417158+02:00</Time>
     </Item>
     <Item>
       <Source>Interface\HotSpot.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\HotSpot.xnb</Output>
-      <Time>2014-04-03T10:58:12.942959+02:00</Time>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\HotSpot.xnb</Output>
+      <Time>2014-05-20T09:36:14.417158+02:00</Time>
     </Item>
     <Item>
       <Source>Interface\loadingScreen.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\loadingScreen.xnb</Output>
-      <Time>2014-04-21T12:58:33.442488+02:00</Time>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\loadingScreen.xnb</Output>
+      <Time>2014-05-20T09:36:14.4201781+02:00</Time>
     </Item>
     <Item>
       <Source>Interface\loadingArrow.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\loadingArrow.xnb</Output>
-      <Time>2014-04-21T12:58:25.728047+02:00</Time>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\loadingArrow.xnb</Output>
+      <Time>2014-05-20T09:36:14.4191714+02:00</Time>
     </Item>
     <Item>
       <Source>Interface\RightArrow.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\RightArrow.xnb</Output>
-      <Time>2014-04-29T13:51:25.450214+02:00</Time>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\RightArrow.xnb</Output>
+      <Time>2014-05-20T09:36:14.4181647+02:00</Time>
     </Item>
     <Item>
       <Source>Interface\VerticalSlide.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\VerticalSlide.xnb</Output>
-      <Time>2014-04-29T13:51:25.452214+02:00</Time>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Interface\VerticalSlide.xnb</Output>
+      <Time>2014-05-20T09:36:14.4181647+02:00</Time>
     </Item>
     <Item>
       <Source>Effects\TransEffect.fx</Source>
@@ -61,8 +61,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Effects\TransEffect.xnb</Output>
-      <Time>2014-04-03T10:58:12.995962+02:00</Time>
+      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\Effects\TransEffect.xnb</Output>
+      <Time>2014-05-20T09:36:14.4161513+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -70,39 +70,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurfaceContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurfaceContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurfaceContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurfaceContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\PaseoSurface\PaseoSurface\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-04-30T11:42:40.12622+02:00</Value>
+        <Value>2014-01-07T10:05:25.0793945+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

@@ -49,7 +49,8 @@ namespace PaseoSurface
 
         private TouchTarget touchTarget;
         private TouchPoint touchPointForSlide;
-        private Color backgroundColor = new Color(81, 81, 81);
+        //private Color backgroundColor = new Color(81, 81, 81);
+        private Color backgroundColor = Color.CadetBlue;
         private bool applicationLoadCompleteSignalled;
 
         private UserOrientation currentOrientation = UserOrientation.Bottom;
@@ -136,11 +137,13 @@ namespace PaseoSurface
         void touchTarget_TouchUp(object sender, TouchEventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("Touch Up: " + e.TouchPoint.Id);
+            Resources.Instance.PointerPressed = false;
         }
 
         void touchTarget_TouchDown(object sender, TouchEventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("Touch Down: " + e.TouchPoint.Id);
+
         }
 
         void touchTarget_TouchTapGesture(object sender, TouchEventArgs e)
@@ -182,6 +185,7 @@ namespace PaseoSurface
         {
             // TODO: Add your initialization logic here
             Resources.Instance.GraphicsDevice = GraphicsDevice;
+            Resources.Instance.Graphics = graphics;
             Resources.Instance.Content = Content;
             Resources.Instance.Game = this;
             TouchPanel.EnabledGestures = GestureType.FreeDrag | GestureType.Tap;
@@ -298,10 +302,7 @@ namespace PaseoSurface
                     PanoSlideUpdate(gameTime);
                     break;
                 default: break;
-            }
-
-
-           
+            }           
         }
 
         protected void PanoPressUpdate(GameTime gameTime) 

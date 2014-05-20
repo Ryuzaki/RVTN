@@ -28,3 +28,13 @@ C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual pa
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDTest\FullHDTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDTest\FullHDTest\obj\x86\Debug\FullHDTest.exe
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDTest\FullHDTest\obj\x86\Debug\FullHDTest.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\bin\x86\Debug\FullHDTest.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\bin\x86\Debug\FullHDTest.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\bin\x86\Debug\DirectShowLib-2005.dll
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\bin\x86\Debug\Interop.QuartzTypeLib.dll
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\obj\x86\Debug\FullHDTest.csprojResolveAssemblyReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\obj\x86\Debug\Interop.QuartzTypeLib.dll
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\obj\x86\Debug\FullHDTest.csproj.ResolveComReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\obj\x86\Debug\FullHDTest.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTest\obj\x86\Debug\FullHDTest.pdb

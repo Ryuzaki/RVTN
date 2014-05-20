@@ -52,8 +52,8 @@ namespace PaseoSurface
         private int blendingDurationMili = 3000;
         private float alphaBlending = 0.0f;
         private double blendingInitMili;
-        private RenderTarget2D renderTarget;
-        private Texture2D beforeTexture, afterTexture;
+        private RenderTarget2D renderTargetAfter, renderTargetBefore;
+        //ivate Texture2D beforeTexture, afterTexture;
 
         #endregion
 
@@ -96,7 +96,9 @@ namespace PaseoSurface
             currentHotSpace = 0;
 
             PresentationParameters pp = Resources.Instance.GraphicsDevice.PresentationParameters;
-            renderTarget = new RenderTarget2D(Resources.Instance.GraphicsDevice, pp.BackBufferWidth, pp.BackBufferHeight, true,
+            renderTargetBefore = new RenderTarget2D(Resources.Instance.GraphicsDevice, pp.BackBufferWidth, pp.BackBufferHeight, true,
+                Resources.Instance.GraphicsDevice.DisplayMode.Format, DepthFormat.Depth24);
+            renderTargetAfter = new RenderTarget2D(Resources.Instance.GraphicsDevice, pp.BackBufferWidth, pp.BackBufferHeight, true,
                 Resources.Instance.GraphicsDevice.DisplayMode.Format, DepthFormat.Depth24);
         }
 
@@ -158,19 +160,25 @@ namespace PaseoSurface
         private void BeginAnimationBlending(GameTime gameTime) 
         {
             //Change the render target
-            Resources.Instance.GraphicsDevice.SetRenderTarget(renderTarget);
+            Resources.Instance.GraphicsDevice.SetRenderTarget(renderTargetBefore);
             //Paint it
-            Resources.Instance.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
+            Resources.Instance.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Blue, 1.0f, 0);
             //Draw the vision in this hotspace
             listaHotSpace[currentHotSpace].Draw(Resources.Instance.Camera);
-            //Put that vision on a texture
-            beforeTexture = (Texture2D)renderTarget;
+
+            //Change the render target
+            Resources.Instance.GraphicsDevice.SetRenderTarget(renderTargetAfter);
+            //Paint it
+            Resources.Instance.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Blue, 1.0f, 0);
             //Draw the vision of the next hotspace
             listaHotSpace[nextHotSpace].Draw(Resources.Instance.Camera);
-            //Draw it on another texture
-            afterTexture = (Texture2D)renderTarget;
+
             //Reset the target to the default target (screen)
             Resources.Instance.GraphicsDevice.SetRenderTarget(null);
+
+            //renderTargetAfter.SaveAsPng(File.OpenWrite("afterTexture.png"), renderTargetAfter.Width, renderTargetAfter.Height);
+            //renderTargetBefore.SaveAsPng(File.OpenWrite("beforeTexture.png"), renderTargetBefore.Width, renderTargetBefore.Height);
+            
 
             alphaBlending = 0.0f;
             blendingInitMili = gameTime.TotalGameTime.TotalMilliseconds;
@@ -178,32 +186,31 @@ namespace PaseoSurface
 
         private bool UpdateAnimationBlending(GameTime gameTime) 
         {
+            //poner el valor del alphaBlending dependiendo de el tiempo pasado desde el inicio
             double now = gameTime.TotalGameTime.TotalMilliseconds;
             if (now - blendingInitMili <= blendingDurationMili) {
-                alphaBlending = (float)((now - blendingInitMili) / blendingInitMili);
+                alphaBlending = (float)((now - blendingInitMili) / blendingDurationMili);
                 return false;
             }
             return true;
         }
 
         private void DrawAnimationBlending() {
-            Texture2D res = new Texture2D(Resources.Instance.GraphicsDevice,afterTexture.Width, afterTexture.Height,false, SurfaceFormat.Color);
-            int[] afterData = new int[afterTexture.Width * afterTexture.Height];
-            int[] beforeData = new int[beforeTexture.Width * beforeTexture.Height];
-            afterTexture.GetData<int>(afterData);
-            beforeTexture.GetData<int>(beforeData);
-
-            int[] resData = new int[afterData.Length];
-            for(int i = 0; i < afterData.Length; ++i){
-                resData[i] = (int)((alphaBlending * afterData[i]) + ((1 - alphaBlending) * beforeData[i]));
-            }
-            res.SetData(resData);
 
             SpriteBatch sp = new SpriteBatch(Resources.Instance.GraphicsDevice);
-            sp.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
-            sp.Draw(res,
-                new Rectangle(0, 0, Resources.Instance.ScreenWidth, Resources.Instance.ScreenHeight),
-                Color.White);
+            sp.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend);
+            /*sp.Draw(renderTargetAfter,
+                new Rectangle(0, 0, Resources.Instance.Graphics.PreferredBackBufferWidth, Resources.Instance.Graphics.PreferredBackBufferHeight),
+                Color.White * alphaBlending);
+            sp.Draw(renderTargetBefore,
+                new Rectangle(0, 0, Resources.Instance.Graphics.PreferredBackBufferWidth, Resources.Instance.Graphics.PreferredBackBufferHeight),
+                Color.White * (1 - alphaBlending));*/
+            sp.Draw(renderTargetAfter,
+                new Rectangle(0, 0, renderTargetAfter.Width, renderTargetAfter.Height),
+                Color.White * alphaBlending);
+            sp.Draw(renderTargetBefore,
+                new Rectangle(0, 0, renderTargetBefore.Width, renderTargetBefore.Height),
+                Color.White * (1 - alphaBlending));
             sp.End();
         }
 

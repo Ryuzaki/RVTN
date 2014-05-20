@@ -45,3 +45,15 @@ C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual pa
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\obj\x86\Debug\BeginningModel.exe
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\obj\x86\Debug\BeginningModel.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Models\cobete.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Models\cube.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Red.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Ambiente.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Texture.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Textures\texture01.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\BeginningModel.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\BeginningModel.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\obj\x86\Debug\BeginningModel.csprojResolveAssemblyReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\obj\x86\Debug\BeginningModel.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\obj\x86\Debug\BeginningModel.pdb

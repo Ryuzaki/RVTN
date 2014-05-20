@@ -1,1 +1,2 @@
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\FullHDTest\FullHDTestContent\obj\x86\Debug\FullHDTestContent.contentprojResolveAssemblyReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\FullHDTest\FullHDTestContent\obj\x86\Debug\FullHDTestContent.contentprojResolveAssemblyReference.cache

@@ -15,5 +15,21 @@
     </South>
   </HotSpace>
 
+  <HotSpace name="Zona Numero 02">
+    <East img="PaseoVirtual00/Spot 02-3.jpg">
+      <GoTo coordX="2100" coordY="600" where="Zona Numero 01"/>
+    </East>
+
+    <North img="PaseoVirtual00/Spot 02-2.jpg">
+      <GoTo coordX="1600" coordY="600" where="Zona Numero 03"/>
+    </North>
+
+    <West img="PaseoVirtual00/Spot 02-1.jpg">
+      <GoTo coordX="440" coordY="580" where="Zona Numero 30"/>
+    </West>
+
+    <South img="PaseoVirtual00/Spot 02-0.jpg">
+    </South>
+  </HotSpace>
   
 </PaseoVirtual>

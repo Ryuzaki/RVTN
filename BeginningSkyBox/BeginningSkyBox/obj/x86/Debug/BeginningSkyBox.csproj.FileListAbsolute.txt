@@ -103,3 +103,29 @@ C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual pa
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\obj\x86\Debug\BeginningSkyBox.exe
 C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\obj\x86\Debug\BeginningSkyBox.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\cobete.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\cube.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\cube.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\plane.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\SkyboxEffect.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Effects\TransEffect.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\SkyBox.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\OutputCube.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\test02.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\TestSprite.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Back.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Bot.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Front.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Left.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Right.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Top.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_back.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_front.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_left.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_right.xnb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\BeginningSkyBox.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\BeginningSkyBox.pdb
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\obj\x86\Debug\BeginningSkyBox.csprojResolveAssemblyReference.cache
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\obj\x86\Debug\BeginningSkyBox.exe
+C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\obj\x86\Debug\BeginningSkyBox.pdb
