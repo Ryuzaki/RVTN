@@ -57,3 +57,4 @@ C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\Begin
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\obj\x86\Debug\BeginningModel.exe
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\obj\x86\Debug\BeginningModel.pdb
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\obj\x86\Debug\BeginningModel.csprojResolveAssemblyReference.cache

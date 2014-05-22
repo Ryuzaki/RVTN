@@ -7,11 +7,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\cobete.xnb</Output>
-      <Time>2014-05-20T09:35:36.6709415+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\cobete.xnb</Output>
+      <Time>2013-10-10T20:25:32+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\cobete_0.xml</Key>
-        <Value>2014-05-20T09:42:30.9899489+02:00</Value>
+        <Value>2014-05-22T20:47:32.9958247+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -20,11 +20,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\cube.xnb</Output>
-      <Time>2014-05-20T09:35:37.0927488+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\cube.xnb</Output>
+      <Time>2013-10-10T20:25:32+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Skybox\cube_0.xml</Key>
-        <Value>2014-05-20T09:42:31.1762093+02:00</Value>
+        <Value>2014-05-22T20:47:33.5048538+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -33,11 +33,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\cube.xnb</Output>
-      <Time>2014-05-20T09:35:36.6719482+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\cube.xnb</Output>
+      <Time>2013-10-16T11:54:02+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\cube_0.xml</Key>
-        <Value>2014-05-20T09:42:31.2513143+02:00</Value>
+        <Value>2014-05-22T20:47:33.8358727+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -46,11 +46,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\plane.xnb</Output>
-      <Time>2014-05-20T09:35:36.6729549+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Models\plane.xnb</Output>
+      <Time>2013-10-21T15:30:28+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\plane_0.xml</Key>
-        <Value>2014-05-20T09:42:31.3254179+02:00</Value>
+        <Value>2014-05-22T20:47:34.1628914+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -59,8 +59,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\SkyboxEffect.xnb</Output>
-      <Time>2014-05-20T09:35:37.0917421+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\SkyboxEffect.xnb</Output>
+      <Time>2013-10-14T15:49:54+02:00</Time>
     </Item>
     <Item>
       <Source>Effects\TransEffect.fx</Source>
@@ -68,8 +68,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Effects\TransEffect.xnb</Output>
-      <Time>2014-05-20T09:35:36.6689281+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Effects\TransEffect.xnb</Output>
+      <Time>2013-11-06T16:03:48+01:00</Time>
     </Item>
     <Item>
       <Source>Skybox\SkyBox.dds</Source>
@@ -80,8 +80,8 @@
         <Data Key="PremultiplyAlpha">False</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\SkyBox.xnb</Output>
-      <Time>2014-05-20T09:35:37.0675813+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\SkyBox.xnb</Output>
+      <Time>2013-10-14T15:42:40+02:00</Time>
     </Item>
     <Item>
       <Source>Skybox\OutputCube.dds</Source>
@@ -89,8 +89,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\OutputCube.xnb</Output>
-      <Time>2014-05-20T09:35:36.9769783+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\OutputCube.xnb</Output>
+      <Time>2013-10-15T12:58:06+02:00</Time>
     </Item>
     <Item>
       <Source>Skybox\test02.dds</Source>
@@ -98,8 +98,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\test02.xnb</Output>
-      <Time>2014-05-20T09:35:38.3350166+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Skybox\test02.xnb</Output>
+      <Time>2013-10-15T13:14:42+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\TestSprite.png</Source>
@@ -107,8 +107,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\TestSprite.xnb</Output>
-      <Time>2014-05-20T09:35:38.3491104+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\TestSprite.xnb</Output>
+      <Time>2013-10-16T15:42:58+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\Back.png</Source>
@@ -116,8 +116,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Back.xnb</Output>
-      <Time>2014-05-20T09:35:38.3420635+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Back.xnb</Output>
+      <Time>2013-10-22T19:55:24+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\Bot.png</Source>
@@ -125,8 +125,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Bot.xnb</Output>
-      <Time>2014-05-20T09:35:38.3440769+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Bot.xnb</Output>
+      <Time>2013-10-22T19:55:24+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\Front.png</Source>
@@ -134,8 +134,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Front.xnb</Output>
-      <Time>2014-05-20T09:35:38.3450836+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Front.xnb</Output>
+      <Time>2013-10-22T19:55:24+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\Left.png</Source>
@@ -143,8 +143,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Left.xnb</Output>
-      <Time>2014-05-20T09:35:38.3460903+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Left.xnb</Output>
+      <Time>2013-10-22T19:55:24+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\Right.png</Source>
@@ -152,8 +152,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Right.xnb</Output>
-      <Time>2014-05-20T09:35:38.347097+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Right.xnb</Output>
+      <Time>2013-10-22T19:55:24+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\Top.png</Source>
@@ -161,8 +161,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Top.xnb</Output>
-      <Time>2014-05-20T09:35:38.3501171+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\Top.xnb</Output>
+      <Time>2013-10-22T19:55:24+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\img01_back.png</Source>
@@ -170,8 +170,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_back.xnb</Output>
-      <Time>2014-05-20T09:35:38.8635341+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_back.xnb</Output>
+      <Time>2013-10-29T12:13:30+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\img01_front.png</Source>
@@ -179,8 +179,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_front.xnb</Output>
-      <Time>2014-05-20T09:35:39.1293029+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_front.xnb</Output>
+      <Time>2013-10-29T12:13:30+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\img01_left.png</Source>
@@ -188,8 +188,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_left.xnb</Output>
-      <Time>2014-05-20T09:35:39.263194+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_left.xnb</Output>
+      <Time>2013-10-29T12:13:30+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\img01_right.png</Source>
@@ -197,36 +197,36 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_right.xnb</Output>
-      <Time>2014-05-20T09:35:39.3397032+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\Texture\img01_right.xnb</Output>
+      <Time>2013-10-29T12:13:30+01:00</Time>
     </Item>
     <Item>
       <Source>Models\cobete.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Models\cobete_0.xml</Output>
-      <Time>2014-05-20T09:35:36.6709415+02:00</Time>
+      <Time>2013-10-10T20:25:32+02:00</Time>
     </Item>
     <Item>
       <Source>Skybox\cube.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Skybox\cube_0.xml</Output>
-      <Time>2014-05-20T09:35:37.0927488+02:00</Time>
+      <Time>2013-10-10T20:25:32+02:00</Time>
     </Item>
     <Item>
       <Source>Models\cube.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Models\cube_0.xml</Output>
-      <Time>2014-05-20T09:35:36.6719482+02:00</Time>
+      <Time>2013-10-16T11:54:02+02:00</Time>
     </Item>
     <Item>
       <Source>Models\plane.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Models\plane_0.xml</Output>
-      <Time>2014-05-20T09:35:36.6729549+02:00</Time>
+      <Time>2013-10-21T15:30:28+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -234,39 +234,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBoxContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBoxContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBoxContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBoxContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningSkyBox\BeginningSkyBox\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-01-07T10:05:25.0793945+01:00</Value>
+        <Value>2014-04-30T11:42:40.12622+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

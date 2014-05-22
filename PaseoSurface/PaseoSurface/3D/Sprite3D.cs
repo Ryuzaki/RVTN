@@ -186,7 +186,7 @@ namespace PaseoSurface
                     Resources.Instance.GraphicsDevice.DrawUserPrimitives<VertexPositionTexture>(PrimitiveType.TriangleStrip, _verts, 0, 2);
                     Resources.Instance.GraphicsDevice.BlendState = BlendState.Opaque;
                 }
-                BoundingSphereRenderer.Render(GetBoundingSphere(), Resources.Instance.GraphicsDevice, camera.View, camera.Projection, Color.Red);
+                //BoundingSphereRenderer.Render(GetBoundingSphere(), Resources.Instance.GraphicsDevice, camera.View, camera.Projection, Color.Red);
             }
         }
 

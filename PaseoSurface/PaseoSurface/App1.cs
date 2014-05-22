@@ -218,7 +218,7 @@ namespace PaseoSurface
 
             //Custom Initialize
             paseoVirtual = new PaseoVirtual();
-            paseoVirtual.Create("PaseoVirtualFast.xml");
+            paseoVirtual.Create("PaseoVirtualDemo.xml");
 
             loadingTimerAnimation = new Timer(40); //25 fps
             loadingTimerAnimation.Elapsed += new ElapsedEventHandler(loadingTimerAnimation_Elapsed);
@@ -458,7 +458,6 @@ namespace PaseoSurface
             //TODO: Avoid any expensive logic if application is neither active nor previewed
             if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Draw();
 
-            //if (paseoVirtual.State == PaseoVirtual.STATE.BLENDING) { Console.WriteLine("Blengindg"); }
 
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
             //left vertical slide

@@ -1,0 +1,71 @@
+<PaseoVirtual name="Paseo Virtual Numero 01">
+
+  <HotSpace name="Zona Numero 13">
+    <East img="PaseoVirtual00/Spot 12-1.jpg">
+      <GoTo coordX="1550" coordY="530" where="Zona Numero 12"/>
+    </East>
+
+    <North img="PaseoVirtual00/Spot 12-0.jpg">
+
+    </North>
+
+    <West img="PaseoVirtual00/Spot 12-3.jpg">
+      <GoTo coordX="1320" coordY="530" where="Zona Numero 14"/>
+    </West>
+
+    <South img="PaseoVirtual00/Spot 12-2.jpg">
+    </South>
+  </HotSpace>
+  
+  <HotSpace name="Zona Numero 12">
+    <East img="PaseoVirtual00/Spot 11-1.jpg">
+
+    </East>
+
+    <North img="PaseoVirtual00/Spot 11-0.jpg">
+    </North>
+
+    <West img="PaseoVirtual00/Spot 11-3.jpg">
+      <GoTo coordX="1200" coordY="500" where="Zona Numero 13"/>
+    </West>
+
+    <South img="PaseoVirtual00/Spot 11-2.jpg">
+    </South>
+  </HotSpace>
+
+
+
+  <HotSpace name="Zona Numero 14">
+    <East img="PaseoVirtual00/Spot 13-1.jpg">
+      <GoTo coordX="1160" coordY="470" where="Zona Numero 13"/>
+    </East>
+
+    <North img="PaseoVirtual00/Spot 13-0.jpg">
+
+    </North>
+
+    <West img="PaseoVirtual00/Spot 13-3.jpg">
+      <GoTo coordX="1100" coordY="480" where="Zona Numero 15"/>
+    </West>
+
+    <South img="PaseoVirtual00/Spot 13-2.jpg">
+
+    </South>
+  </HotSpace>
+
+  <HotSpace name="Zona Numero 15">
+    <East img="PaseoVirtual00/Spot 15-1.jpg">
+      <GoTo coordX="1900" coordY="440" where="Zona Numero 14"/>
+    </East>
+
+    <North img="PaseoVirtual00/Spot 15-0.jpg">
+    </North>
+
+    <West img="PaseoVirtual00/Spot 15-3.jpg">
+    </West>
+
+    <South img="PaseoVirtual00/Spot 15-2.jpg">
+    </South>
+  </HotSpace>
+  
+</PaseoVirtual>

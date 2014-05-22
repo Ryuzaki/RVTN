@@ -7,11 +7,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Models\cobete.xnb</Output>
-      <Time>2014-05-20T09:35:21.2482975+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\bin\x86\Debug\Content\Models\cobete.xnb</Output>
+      <Time>2013-10-09T20:35:56+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\cobete_0.xml</Key>
-        <Value>2014-05-20T09:42:35.1697925+02:00</Value>
+        <Value>2014-05-22T20:47:46.3605891+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -20,11 +20,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Models\cube.xnb</Output>
-      <Time>2014-05-20T09:35:21.2513176+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\bin\x86\Debug\Content\Models\cube.xnb</Output>
+      <Time>2013-10-09T20:59:48+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\cube_0.xml</Key>
-        <Value>2014-05-20T09:42:35.2619213+02:00</Value>
+        <Value>2014-05-22T20:47:46.7346105+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -33,8 +33,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Red.xnb</Output>
-      <Time>2014-05-20T09:35:21.2442707+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Red.xnb</Output>
+      <Time>2013-10-10T11:46:36+02:00</Time>
     </Item>
     <Item>
       <Source>Effects\Ambiente.fx</Source>
@@ -42,8 +42,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Ambiente.xnb</Output>
-      <Time>2014-05-20T09:35:21.243264+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Ambiente.xnb</Output>
+      <Time>2013-10-10T12:02:04+02:00</Time>
     </Item>
     <Item>
       <Source>Effects\Texture.fx</Source>
@@ -51,8 +51,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Texture.xnb</Output>
-      <Time>2014-05-20T09:35:21.2452774+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\bin\x86\Debug\Content\Effects\Texture.xnb</Output>
+      <Time>2013-10-10T20:17:16+02:00</Time>
     </Item>
     <Item>
       <Source>Textures\texture01.png</Source>
@@ -60,22 +60,22 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\Textures\texture01.xnb</Output>
-      <Time>2014-05-20T09:35:21.5472874+02:00</Time>
+      <Output>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\bin\x86\Debug\Content\Textures\texture01.xnb</Output>
+      <Time>2013-10-10T20:11:48+02:00</Time>
     </Item>
     <Item>
       <Source>Models\cobete.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Models\cobete_0.xml</Output>
-      <Time>2014-05-20T09:35:21.2482975+02:00</Time>
+      <Time>2013-10-09T20:35:56+02:00</Time>
     </Item>
     <Item>
       <Source>Models\cube.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Models\cube_0.xml</Output>
-      <Time>2014-05-20T09:35:21.2513176+02:00</Time>
+      <Time>2013-10-09T20:59:48+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -83,39 +83,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModelContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModelContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\BeginningModel\BeginningModel\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModelContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModelContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\BeginningModel\BeginningModel\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-01-07T10:05:25.0793945+01:00</Value>
+        <Value>2014-04-30T11:42:40.12622+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

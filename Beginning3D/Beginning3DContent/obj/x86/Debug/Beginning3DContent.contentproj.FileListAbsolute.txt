@@ -2,3 +2,4 @@ C:\Users\Ernesto\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual pa
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3DContent\obj\x86\Debug\Beginning3DContent.contentprojResolveAssemblyReference.cache
 C:\Users\Ryuzaki\Desktop\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3DContent\obj\x86\Debug\Beginning3DContent.contentprojResolveAssemblyReference.cache
 C:\Users\ermuofa\Documents\Visual Studio 2010\Projects\RVTN\Beginning3D\Beginning3DContent\obj\x86\Debug\Beginning3DContent.contentprojResolveAssemblyReference.cache
+C:\Users\Ryuzaki\Documents\Visual Studio 2010\Projects\Rehabilitacion Virtual para Trastornos Neurodegenerativos\Beginning3D\Beginning3DContent\obj\x86\Debug\Beginning3DContent.contentprojResolveAssemblyReference.cache
