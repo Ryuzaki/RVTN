@@ -165,19 +165,14 @@ namespace PaseoSurface
             Resources.Instance.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Blue, 1.0f, 0);
             //Draw the vision in this hotspace
             listaHotSpace[currentHotSpace].Draw(Resources.Instance.Camera);
-
             //Change the render target
             Resources.Instance.GraphicsDevice.SetRenderTarget(renderTargetAfter);
             //Paint it
             Resources.Instance.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Blue, 1.0f, 0);
             //Draw the vision of the next hotspace
             listaHotSpace[nextHotSpace].Draw(Resources.Instance.Camera);
-
             //Reset the target to the default target (screen)
             Resources.Instance.GraphicsDevice.SetRenderTarget(null);
-
-            //renderTargetAfter.SaveAsPng(File.OpenWrite("afterTexture.png"), renderTargetAfter.Width, renderTargetAfter.Height);
-            //renderTargetBefore.SaveAsPng(File.OpenWrite("beforeTexture.png"), renderTargetBefore.Width, renderTargetBefore.Height);
             
 
             alphaBlending = 0.0f;
@@ -199,12 +194,6 @@ namespace PaseoSurface
 
             SpriteBatch sp = new SpriteBatch(Resources.Instance.GraphicsDevice);
             sp.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend);
-            /*sp.Draw(renderTargetAfter,
-                new Rectangle(0, 0, Resources.Instance.Graphics.PreferredBackBufferWidth, Resources.Instance.Graphics.PreferredBackBufferHeight),
-                Color.White * alphaBlending);
-            sp.Draw(renderTargetBefore,
-                new Rectangle(0, 0, Resources.Instance.Graphics.PreferredBackBufferWidth, Resources.Instance.Graphics.PreferredBackBufferHeight),
-                Color.White * (1 - alphaBlending));*/
             sp.Draw(renderTargetAfter,
                 new Rectangle(0, 0, renderTargetAfter.Width, renderTargetAfter.Height),
                 Color.White * alphaBlending);

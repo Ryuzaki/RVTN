@@ -22,8 +22,8 @@ namespace PaseoSurface
         private bool visible = true;
 
         //Transition and blending animation
-        private int? initBlending = null;
-        private int blendingDurationMiliseg = 0;
+        //private int? initBlending = null;
+        //private int blendingDurationMiliseg = 0;
         private float actualRotationRad;
         private float totalRotationRad;
 

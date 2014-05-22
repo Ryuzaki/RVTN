@@ -18,7 +18,7 @@ namespace PaseoSurface
         public Camera Camera { get; set; }
         public bool MovementEnabled { get; set; }
         public bool Transitioning { get; set; }
-        public bool PointerPressed { get; set; }
+        public bool TapDetected { get; set; }
         public int PointerX { get; set; }
         public int PointerY { get; set; }
 
@@ -42,7 +42,7 @@ namespace PaseoSurface
         private Resources() {
             MovementEnabled = true;
             Transitioning = false;
-            PointerPressed = false;
+            TapDetected = false;
             PointerX = 0;
             PointerY = 0;
         }

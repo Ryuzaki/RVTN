@@ -104,6 +104,7 @@ namespace PaseoSurface
             // Set the graphics device buffers.
             graphics.PreferredBackBufferWidth = Program.WindowSize.Width;
             graphics.PreferredBackBufferHeight = Program.WindowSize.Height;
+            graphics.IsFullScreen = true;
             graphics.ApplyChanges();
             // Make sure the window is in the right location.
             Program.PositionWindow();
@@ -137,7 +138,6 @@ namespace PaseoSurface
         void touchTarget_TouchUp(object sender, TouchEventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("Touch Up: " + e.TouchPoint.Id);
-            Resources.Instance.PointerPressed = false;
         }
 
         void touchTarget_TouchDown(object sender, TouchEventArgs e)
@@ -148,7 +148,7 @@ namespace PaseoSurface
 
         void touchTarget_TouchTapGesture(object sender, TouchEventArgs e)
         {
-            Resources.Instance.PointerPressed = true;
+            Resources.Instance.TapDetected = true;
             Resources.Instance.PointerX = (int)e.TouchPoint.X;
             Resources.Instance.PointerY = (int)e.TouchPoint.Y;
         }
@@ -457,6 +457,8 @@ namespace PaseoSurface
             //TODO: Add your drawing code here
             //TODO: Avoid any expensive logic if application is neither active nor previewed
             if (paseoVirtual.IsPaseoVirtualCreated) paseoVirtual.Draw();
+
+            //if (paseoVirtual.State == PaseoVirtual.STATE.BLENDING) { Console.WriteLine("Blengindg"); }
 
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
             //left vertical slide

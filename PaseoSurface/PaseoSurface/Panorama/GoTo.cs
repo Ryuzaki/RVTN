@@ -58,11 +58,11 @@ namespace PaseoSurface
             Vector2 pointerLocation = new Vector2(Resources.Instance.PointerX, Resources.Instance.PointerY);
             Viewport viewport = Resources.Instance.GraphicsDevice.Viewport;
             Camera camera = Resources.Instance.Camera;
-            if (Resources.Instance.PointerPressed == true && 
+            if (Resources.Instance.TapDetected == true && 
                 goToEvent != null && 
                 Camera.Intersects(this, pointerLocation, viewport, camera))
             {
-                //PanoEngine.start = new TimeSpan(DateTime.Now.Ticks);
+                Resources.Instance.TapDetected = false;
                 goToEvent(pointerLocation, destinyName, gameTime); //Llamar al metodo que cambia de HotSpace
             }
             
