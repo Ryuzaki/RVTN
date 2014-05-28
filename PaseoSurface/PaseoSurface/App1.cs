@@ -104,7 +104,7 @@ namespace PaseoSurface
             // Set the graphics device buffers.
             graphics.PreferredBackBufferWidth = Program.WindowSize.Width;
             graphics.PreferredBackBufferHeight = Program.WindowSize.Height;
-            graphics.IsFullScreen = true;
+            //graphics.IsFullScreen = true;
             graphics.ApplyChanges();
             // Make sure the window is in the right location.
             Program.PositionWindow();
@@ -148,6 +148,7 @@ namespace PaseoSurface
 
         void touchTarget_TouchTapGesture(object sender, TouchEventArgs e)
         {
+            System.Diagnostics.Debug.WriteLine("Tap: " + e.TouchPoint.Id);
             Resources.Instance.TapDetected = true;
             Resources.Instance.PointerX = (int)e.TouchPoint.X;
             Resources.Instance.PointerY = (int)e.TouchPoint.Y;
@@ -184,6 +185,8 @@ namespace PaseoSurface
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            readConfigurationFile();
+
             Resources.Instance.GraphicsDevice = GraphicsDevice;
             Resources.Instance.Graphics = graphics;
             Resources.Instance.Content = Content;
@@ -218,7 +221,7 @@ namespace PaseoSurface
 
             //Custom Initialize
             paseoVirtual = new PaseoVirtual();
-            paseoVirtual.Create("PaseoVirtualDemo.xml");
+            paseoVirtual.Create("PaseoVirtualFast.xml");
 
             loadingTimerAnimation = new Timer(40); //25 fps
             loadingTimerAnimation.Elapsed += new ElapsedEventHandler(loadingTimerAnimation_Elapsed);
@@ -226,6 +229,37 @@ namespace PaseoSurface
 
 
             base.Initialize();
+        }
+
+        private void readConfigurationFile()
+        {
+            string line;
+
+            System.IO.StreamReader file = new System.IO.StreamReader("configuracion.txt");
+            while ((line = file.ReadLine()) != null)
+            {
+                if (line != "" && line[0] != '#') 
+                {
+                    String[] words = line.Split(' ');
+                    switch (words[0]) { 
+                        case "movimiento":
+                            if (Convert.ToInt32(words[1]) == 0)
+                            {
+                                currentInputMode = INPUT_MODE.PRESS;
+                            }
+                            else {
+                                currentInputMode = INPUT_MODE.SLIDE;
+                            }
+                            break;
+                        case "tamFranjas":
+                            verticalSlideWidthPixel = Convert.ToInt32(words[1]);
+                            break;
+                        default: break;
+                    }
+                }
+            }
+
+            file.Close();
         }
 
         void loadingTimerAnimation_Elapsed(object sender, ElapsedEventArgs e)

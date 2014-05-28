@@ -1,0 +1,10 @@
+#############################################################
+# Ernesto Muñoz Faba
+# Rehabilitacion Virtual para Trastornos Neurodegenerativos 
+#############################################################
+
+# Movimiento 0 (Press) 1 (Slide)
+movimiento 0
+
+# Tamaño de las franjas laterales
+tamFranjas 100

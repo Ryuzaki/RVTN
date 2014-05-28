@@ -225,7 +225,7 @@ namespace PaseoSurface
                 if (listaHotSpace[i].Name.CompareTo(destinyName) == 0)
                 {
                     State = STATE.TRANSITION;
-                    //_movementEnabled = false; //Deshabilitar el movimiento de la camara mientras se hace la animacion de transicion
+                    Resources.Instance.MovementEnabled = false; //Deshabilitar el movimiento de la camara mientras se hace la animacion de transicion
                     nextHotSpace = i;
                     stop = new TimeSpan(DateTime.Now.Ticks);
                     //Console.WriteLine("Antes de cargar LoadContent del HotSpace numero " + nextHotSpace + " :" + PanoEngine.stop.Subtract(PanoEngine.start).TotalMilliseconds);

@@ -31,7 +31,7 @@ namespace PaseoSurface
         private List<HotSpot> listaHotSpot;
         public enum WALL { NORTH = 0, EAST = 1, SOUTH = 2, WEST = 3};
         private List<GoTo> listaGoTo;
-
+        private int counter = 0;
         #endregion
 
         #region Properties
@@ -238,16 +238,36 @@ namespace PaseoSurface
         public bool RotationAnimationUpdate(GameTime gameTime)
         {
             
-            float radPerCall = 0.001f;
-            actualRotationRad += radPerCall;
+            float[] rotations = {0.001f,  0.002f, 0.003f, 0.002f, 0.001f};
+
+            int index = 0;
+            if (actualRotationRad <= Math.Abs(totalRotationRad) / 5.0f)
+                index = 0;
+            if (actualRotationRad > Math.Abs(totalRotationRad) / 5.0f && actualRotationRad <= Math.Abs(totalRotationRad) / 4.0f)
+                index = 1;
+            if (actualRotationRad > Math.Abs(totalRotationRad) / 4.0f && actualRotationRad <= Math.Abs(totalRotationRad) / 3.0f)
+                index = 2;
+            if (actualRotationRad > Math.Abs(totalRotationRad) / 3.0f && actualRotationRad <= Math.Abs(totalRotationRad) / 2.0f)
+                index = 3;
+            if (actualRotationRad > Math.Abs(totalRotationRad) / 2.0f && actualRotationRad <= Math.Abs(totalRotationRad))
+                index = 4;
+
+
+
+
+
+            Console.Out.WriteLine(rotations[index]);
+            actualRotationRad += rotations[index];
+            //actualRotationRad += 0.001f;
             if (totalRotationRad >= 0)
             {
-                Resources.Instance.Camera.RotateLookAt(radPerCall, Camera.AXIS.Y);
+                Resources.Instance.Camera.RotateLookAt(rotations[index], Camera.AXIS.Y);
+                //Resources.Instance.Camera.RotateLookAt(0.001f, Camera.AXIS.Y);
             }
             else {
-                Resources.Instance.Camera.RotateLookAt(-radPerCall, Camera.AXIS.Y);
+                Resources.Instance.Camera.RotateLookAt(-rotations[index], Camera.AXIS.Y);
+                //Resources.Instance.Camera.RotateLookAt(-0.001f, Camera.AXIS.Y);
             }
-            //System.Diagnostics.Debug.WriteLine(totalRotationRad + " " + actualRotationRad);
             if (Math.Abs(totalRotationRad) <= actualRotationRad)
                 return true;
             
@@ -399,7 +419,8 @@ namespace PaseoSurface
             totalRotationRad = (width / 2 - pointer.X) * (Resources.Instance.Camera.FIELD_OF_VIEW / width);
             totalRotationRad = (float)Math.PI * totalRotationRad / 180.0f;
             totalRotationRad *= 1.45f;
-            actualRotationRad = 0;
+            actualRotationRad = 0.0f;
+            totalRotationRad += actualRotationRad;
         }
 
         #endregion
